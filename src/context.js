@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import items from "./data";
-import Client from "./Contentfull";
+// import Client from "./Contentfull";
 
-Client.getEntries({
-  // content_type: "beatchResportRoom",
-}).then((response) => console.log(response.items));
+// Client.getEntries({
+//   // content_type: "beatchResportRoom",
+// }).then((response) => console.log(response.items));
 
 const RoomContext = React.createContext();
 //Provider and consumer
