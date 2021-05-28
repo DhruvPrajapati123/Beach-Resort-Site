@@ -109,7 +109,7 @@ export default class RoomProvider extends Component {
 
     // filter by type
     if (type !== "all") {
-      tempRooms = tempRooms.filter((room) => room.type == type);
+      tempRooms = tempRooms.filter((room) => room.type === type);
     }
 
     // filter by capacity
